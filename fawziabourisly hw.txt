@@ -1,0 +1,31 @@
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        double x = 64;
+        double z = 42.0;
+        double y = 72.7;
+        double w = 91;
+        double t = 88.5;
+        Grade (x);
+        Grade (z);
+        Grade (y);
+        Grade (w);
+        Grade (t);
+        
+        
+     }
+     
+     public static void Grade(double a)
+     {
+         if (a>=90)
+         System.out.println('A');
+         else if (a>=80)
+         System.out.println('B');
+         else if (a>=70)
+         System.out.println('C');
+         else if (a>=60)
+         System.out.println('D');
+         else 
+         System.out.println('F');
+     }
+}    
